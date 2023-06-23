@@ -1,0 +1,12 @@
+.menu__links {
+    display: inline-block;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+.menu__links:hover {
+    color: cyan;
+    border-bottom: 2px solid cyan;
+}
