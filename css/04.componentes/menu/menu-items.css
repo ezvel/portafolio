@@ -1,4 +1,9 @@
 .menu__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-left: 2rem;
-    width: 6rem;
+    width: 7rem;
+    height: 3rem;
 }
+
