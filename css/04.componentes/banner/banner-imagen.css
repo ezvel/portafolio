@@ -2,19 +2,14 @@
     position: relative;
     width: 100vw;
     height: 100%;
-    background-image: url('../../../imagenes/ezvel.png');
-    background-size: 10%;
-    opacity: 1;
+    background-image: url('../../../imagenes/code-mobile.png');
+    background-size: cover;
+    opacity: .3;
 }
 
 @media screen and (min-width: 768px){
     .banner__imagen {
-        opacity: .5;
+        background-image: url('../../../imagenes/code.png');
     }
 }
 
-@media screen and (min-width: 1024px){
-    .banner__imagen {
-        opacity: .4;
-    }
-}
