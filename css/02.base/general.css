@@ -9,7 +9,7 @@ html, body {
 }
 
 html{
-    background-color: var(--bg-color-oscuro);
+    background-color: var(--bg-color-seccion-impar);
 }
 
 body {
@@ -20,5 +20,11 @@ body {
 
 a {
     color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
 }
 
