@@ -1,0 +1,9 @@
+.redes-sociales__link {
+    width: 3rem;
+    height: 3rem;
+    padding-bottom: 1rem;
+}
+
+.redes-sociales__link:hover {
+    border-bottom: 3px solid cyan;
+}

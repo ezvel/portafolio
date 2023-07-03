@@ -2,14 +2,14 @@
     position: relative;
     width: 100vw;
     height: 100%;
-    background-image: url('../../../imagenes/code-mobile.png');
+    background-image: url('../../../assets/imagenes/code-mobile.png');
     background-size: cover;
     opacity: .3;
 }
 
 @media screen and (min-width: 768px){
     .banner__imagen {
-        background-image: url('../../../imagenes/code.png');
+        background-image: url('../../../assets/imagenes/code.png');
     }
 }
 
