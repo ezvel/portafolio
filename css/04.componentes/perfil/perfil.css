@@ -1,0 +1,10 @@
+.perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-color-seccion-par);
+    z-index: 30;
+}

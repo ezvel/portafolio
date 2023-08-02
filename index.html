@@ -17,6 +17,9 @@
 
     <link rel="stylesheet" href="css/03.secciones/header.css">
     <link rel="stylesheet" href="css/03.secciones/habilidades.css">
+    <link rel="stylesheet" href="css/03.secciones/habilidades-duras.css">
+    <link rel="stylesheet" href="css/03.secciones/habilidades-blandas.css">
+    <link rel="stylesheet" href="css/03.secciones/hobbies.css">
 
     <link rel="stylesheet" href="css/04.componentes/logo/logo.css">
 
@@ -26,24 +29,19 @@
     <link rel="stylesheet" href="css/04.componentes/menu/menu-items.css">
     <link rel="stylesheet" href="css/04.componentes/menu/menu-links.css">
 
-    <link rel="stylesheet" href="css/04.componentes/banner/banner.css">
-    <link rel="stylesheet" href="css/04.componentes/banner/banner-imagen.css">
-    <link rel="stylesheet" href="css/04.componentes/banner/banner-contenido.css">
-    <link rel="stylesheet" href="css/04.componentes/banner/banner-perfil.css">
-    <link rel="stylesheet" href="css/04.componentes/banner/banner-nombre.css">
-    <link rel="stylesheet" href="css/04.componentes/banner/banner-especializacion.css">
-    <link rel="stylesheet" href="css/04.componentes/sobre/sobre.css">
-    <link rel="stylesheet" href="css/04.componentes/sobre/sobre-contenido.css">
-    <link rel="stylesheet" href="css/04.componentes/redes-sociales/redes-sociales.css">
-    <link rel="stylesheet" href="css/04.componentes/redes-sociales/redes-sociales-item.css">
-    <link rel="stylesheet" href="css/04.componentes/redes-sociales/redes-sociales-icon.css">
-    <link rel="stylesheet" href="css/04.componentes/redes-sociales/redes-sociales-link.css">
+    <link rel="stylesheet" href="css/04.componentes/perfil/perfil.css">
+    <link rel="stylesheet" href="css/04.componentes/perfil/perfil.imagen.css">
+    <link rel="stylesheet" href="css/04.componentes/perfil/perfil.nombre.css">
+    <link rel="stylesheet" href="css/04.componentes/perfil/perfil.puesto.css">
+
+    <link rel="stylesheet" href="css/03.secciones/sobre-mi.css">
+
     
 </head>
 <body>
     <!--Menú-->
     <header class="header">
-        <a href="#"><img class="logo" src="assets/logo/logo.png"></a>
+        <a href="index.html"><img class="logo" src="assets/logo/logo.png"></a>
         <nav class="menu">
             <ul class="menu__lista">
                 <li class="menu__items"><a class="menu__links" href="#">Sobre mí</a></li>
@@ -55,33 +53,32 @@
         </nav>
     </header>
     <!--Banner-->
-    <section class="banner">
-        <div class="banner__imagen">
-        </div>
-        <div class="banner__contenido">
-            <div>
-                <h1 class="banner__nombre">Luis Ezequiel Vélez</h1>
-                <h2 class="banner__especializacion">Desarrollador Frontend</h2>
-            </div>
-            <div class="banner__perfil"></div>
-        </div>
+    <section class="perfil">
+        <img class="perfil__imagen" src="assets/imagenes/avatar.png">
+        <h1 class="perfil__nombre">Luis Ezequiel Vélez</h1>
+        <p class="perfil__puesto">Desarrollador Frontend</p>
     </section>
+    <section class="sobre-mi">
+
+    </section>
+    <!--
     <section class="sobre">
         <div class="sobre__contenido">
             <h2 class="sobre__titulo">Sobre mí</h2>
-            <p class="sobre__descripcion">
-                Hola! Soy Ezequiel, programador formado en SEducA, estudiante en programación web Fullstack en CIFPA y estudiante en programación en Alura Latam junto a ONE, con especialización en desarrollo Frontend. 
-            </p>
             <p class="sobre__descripcion" >
-                Comencé mi carrera cómo estudiante de Arquitectura en la U.B.A, dónde descubrí que la Arquitectura no era lo mío, pero me llevé algunas capacidades de diseño que, junto a mi experiencia cómo operador telefónico en AySA en dónde adquirí capacidades cómo la empatía, resolución de conflictos y lograr la mejor experiencia del cliente posible, me brindaron capacidades para encarar el diseño en un sistema Frontend.
+                Hola! Soy estudiante en programación web. He tenido experiencia cómo operador telefónico para AySA. Durante ese trayecto, he aprendido a ponerme en los zapatos de los clientes y desarrollador una obsesión en lograr la mejor experiencia posible a los usuarios. 
             </p>
             <p class="sobre__descripcion">
-                He puesto estas capacidades a trabajar en en sistema para una cafetería llamado "Orderfee", proyecto de fin de curso del trayecto programador, en donde encaré el diseño de la interfaz del sistema y el desarrollo completo, con Java, Java Swing y MySQL.</p>
-            <p class="sobre__descripcion">
-                Por otro lado, también desarrollé el Frontend en un proyecto colaborativo en la formación en programación web en CIFPA, llamado "Peluquearte". Dónde me encargué de ordenar todo el código front y back de la aplicación y el diseño y desarrollo de la intefaz gráfica, cuyas capacidades de ordenamiento las adquirí en el programa ONE, dónde aprendí a escribir un mejor css y estructurarlo de una mejor manera dentro de una arquitectura y metodología.
+                Luego comencé mis estudios en programación, en dónde, en el proceso, he adquirido capacidades en aprender a aprender. Desarrollé también mejores técnicas de estudios y una pasión por el aprendizaje. Fue allí dónde entendí y desenvolví mi nueva pasión y hobbie: Las caminatas. Caminar y pensar en nuevas ideas, ideas de software y solución de problemas. Además de desarrollar y poner a trabajar mi creatividad.
             </p>
             <p class="sobre__descripcion">
-                Me considero una persona metódica, ordenada y creativa. Me gusta caminar y pensar en ideas, soluciones a problemas, en la vida misma, o simplemente por gusto, para mí es un hobbie. Además me gusta escribir. Comencé recientemente a escribir un blog llamado "the ezvel files" dónde intentaré explicar de la mejor manera posible acerca de los conceptos de programación de una manera sencilla y clara.
+                Esto me llevó a encarar mejor mis proyectos de Software durante los cursos que tomé. Desarrollé un sistema para una cafetería llamado "Orderffee", un sistema que he tenido en mente y recorrí desde el diseño de la interfaz gráfica hasta el desarrollo integral con Java, Java Swing y MySQL.
+            </p>
+            <p class="sobre__descripcion">
+                Mi amor por las interfases gráficas me llevó a optar por seguir el camino a ser desarrollador Frontent. Continué mis estudios en Alura Latam junto a ONE y un centro formativo dónde encaré algunos proyectos web, cómo un encriptador de texto en ONE y un proyecto colaborativo llamado "Peluquearte": Sistema de gestión de turnos para una peluquería. Encaré la idea del proyecto, del diseño, ordenamiento del código  y el desarrollo Frontend de la misma, con algunas funcionalidades backend.
+            </p>
+            <p class="sobre__descripcion">
+                Recientemente comencé un blog llamado "The ezvel files" dónde intentaré explicar los conceptos de la programación y sus relaciones de una manera facil y sencilla.
             </p>
         </div>
         <ul class="sobre__redes-sociales redes-sociales">
@@ -91,7 +88,6 @@
             <li class="redes-sociales__item"><a class="redes-sociales__link" href="#"><img class="redes-sociales__icon" src="assets/icons/doc.svg"></a></li>
         </ul>
     </section>
-    <section class="habilidades">
-    </section>
+-->
 </body>
 </html>
