@@ -1,0 +1,9 @@
+.proyecto {
+    position: relative;
+    padding: 2em;
+    min-width: 150px;
+    max-width: 350px;
+    height: 550px;
+    background-color: var(--bg-color-components);
+    border-radius: 1rem;
+}

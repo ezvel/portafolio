@@ -7,6 +7,6 @@
 }
 
 .menu__links:hover {
-    color: cyan;
-    border-bottom: 2px solid cyan;
+    color: var(--color-resaltador);
+    border-bottom: 2px solid var(--color-resaltador);
 }

@@ -1,4 +1,10 @@
 .perfil__imagen {
-    width: 400px;
+    width: 200px;
     height: auto;
+}
+
+@media screen and (min-width: 500px) {
+    .perfil__imagen {
+        width: 400px;
+    }
 }

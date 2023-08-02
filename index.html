@@ -14,17 +14,16 @@
 
     <link rel="stylesheet" href="css/02.base/normalize.css">
     <link rel="stylesheet" href="css/02.base/general.css">
+    <link rel="stylesheet" href="css/02.base/grid.css">
 
     <link rel="stylesheet" href="css/03.secciones/header.css">
-    <link rel="stylesheet" href="css/03.secciones/habilidades.css">
-    <link rel="stylesheet" href="css/03.secciones/habilidades-duras.css">
-    <link rel="stylesheet" href="css/03.secciones/habilidades-blandas.css">
-    <link rel="stylesheet" href="css/03.secciones/hobbies.css">
 
     <link rel="stylesheet" href="css/04.componentes/logo/logo.css">
 
     <link rel="stylesheet" href="css/04.componentes/banner/banner.css">
 
+    <link rel="stylesheet" href="css/04.componentes/menu/menu.css">
+    <link rel="stylesheet" href="css/04.componentes/menu/menu-hamburguesa.css">
     <link rel="stylesheet" href="css/04.componentes/menu/menu-lista.css">
     <link rel="stylesheet" href="css/04.componentes/menu/menu-items.css">
     <link rel="stylesheet" href="css/04.componentes/menu/menu-links.css">
@@ -35,14 +34,21 @@
     <link rel="stylesheet" href="css/04.componentes/perfil/perfil.puesto.css">
 
     <link rel="stylesheet" href="css/03.secciones/sobre-mi.css">
+    <link rel="stylesheet" href="css/03.secciones/proyectos.css">
 
-    
+    <link rel="stylesheet" href="css/04.componentes/proyecto/proyecto.css">
+    <link rel="stylesheet" href="css/04.componentes/proyecto/proyecto.header.css">
+    <link rel="stylesheet" href="css/04.componentes/proyecto/proyecto.imagen.css">
+    <link rel="stylesheet" href="css/04.componentes/proyecto/proyecto.content.css">
+    <link rel="stylesheet" href="css/04.componentes/proyecto/proyecto.descripcion.css">
+    <link rel="stylesheet" href="css/04.componentes/proyecto/proyecto.tools.css">
+
 </head>
 <body>
     <!--Menú-->
     <header class="header">
-        <a href="index.html"><img class="logo" src="assets/logo/logo.png"></a>
         <nav class="menu">
+            <a href="#" class="menu__hamburguesa"><img src="assets/icons/menu_hamburguesa.svg"></a>
             <ul class="menu__lista">
                 <li class="menu__items"><a class="menu__links" href="#">Sobre mí</a></li>
                 <li class="menu__items"><a class="menu__links" href="#">Habilidades</a></li>
@@ -77,6 +83,76 @@
             <li class="sobre-mi__items"><a class="sobre-mi__links" href="https://ar.pinterest.com/ezqel7/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16"><path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/></svg></a></li>
             <li class="sobre-mi__items"><a class="sobre-mi__links" href="assets/cv/luis_ezequiel_velez_cv_v2..pdf" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-file-pdf-fill" viewBox="0 0 16 16"><path d="M5.523 10.424c.14-.082.293-.162.459-.238a7.878 7.878 0 0 1-.45.606c-.28.337-.498.516-.635.572a.266.266 0 0 1-.035.012.282.282 0 0 1-.026-.044c-.056-.11-.054-.216.04-.36.106-.165.319-.354.647-.548zm2.455-1.647c-.119.025-.237.05-.356.078a21.035 21.035 0 0 0 .5-1.05 11.96 11.96 0 0 0 .51.858c-.217.032-.436.07-.654.114zm2.525.939a3.888 3.888 0 0 1-.435-.41c.228.005.434.022.612.054.317.057.466.147.518.209a.095.095 0 0 1 .026.064.436.436 0 0 1-.06.2.307.307 0 0 1-.094.124.107.107 0 0 1-.069.015c-.09-.003-.258-.066-.498-.256zM8.278 4.97c-.04.244-.108.524-.2.829a4.86 4.86 0 0 1-.089-.346c-.076-.353-.087-.63-.046-.822.038-.177.11-.248.196-.283a.517.517 0 0 1 .145-.04c.013.03.028.092.032.198.005.122-.007.277-.038.465z"/><path fill-rule="evenodd" d="M4 0h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm.165 11.668c.09.18.23.343.438.419.207.075.412.04.58-.03.318-.13.635-.436.926-.786.333-.401.683-.927 1.021-1.51a11.64 11.64 0 0 1 1.997-.406c.3.383.61.713.91.95.28.22.603.403.934.417a.856.856 0 0 0 .51-.138c.155-.101.27-.247.354-.416.09-.181.145-.37.138-.563a.844.844 0 0 0-.2-.518c-.226-.27-.596-.4-.96-.465a5.76 5.76 0 0 0-1.335-.05 10.954 10.954 0 0 1-.98-1.686c.25-.66.437-1.284.52-1.794.036-.218.055-.426.048-.614a1.238 1.238 0 0 0-.127-.538.7.7 0 0 0-.477-.365c-.202-.043-.41 0-.601.077-.377.15-.576.47-.651.823-.073.34-.04.736.046 1.136.088.406.238.848.43 1.295a19.707 19.707 0 0 1-1.062 2.227 7.662 7.662 0 0 0-1.482.645c-.37.22-.699.48-.897.787-.21.326-.275.714-.08 1.103z"/></svg></a></li>
         </ul>
+    </section>
+    <section class="proyectos row">
+        <h2 class="proyectos__titulo col-12">Proyectos</h2>
+
+        <article class="proyecto col-12">
+            <header class="proyecto__header">
+                <img  class="proyecto__imagen" src="assets/imagenes/alura_geek.png">
+            </header>
+            <section class="proyecto__content">
+                <h3 class="proyecto__titulo">Alura Geek</h3>
+                <p class="proyecto__descripcion">
+                    Tienda online o E-commerce dónde se desarrolla el CRUD con consumo de una API local
+                </p>
+                <p class="proyecto__descripcion">
+                    HTML. CSS. JavaScript. DOM. AYAX. JSON. Git
+                </p>
+            </section>
+        </article>
+        <article class="proyecto col-12">
+            <header class="proyecto__header">
+                <img  class="proyecto__imagen" src="assets/imagenes/peluquearte.png">
+            </header>
+            <section class="proyecto__content">
+                <h3 class="proyecto__titulo">Peluquearte</h3>
+                <p class="proyecto__descripcion">
+                    Sistema de gestión de turnos para una peluquería.
+                </p>
+                <p class="proyecto__descripcion">
+                    Proyecto colaborativo dónde hice mis aportes en el desarrolló de la interfáz gráfica y
+                    funcionalidades del Backend
+                </p>  
+                <p class="proyecto__descripcion">
+                    HTML. CSS. JavaScript. PHP. Git 
+                </p>                   
+            </section>
+        </article>
+
+        <article class="proyecto col-12">
+            <header class="proyecto__header">
+                <img  class="proyecto__imagen" src="assets/imagenes/encriptador.png">
+            </header>
+            <section class="proyecto__content">
+                <h3 class="proyecto__titulo">Encriptador de texto</h3>
+                <p class="proyecto__descripcion">
+                    Programa para crear tus propios mensajes secretos, encriptarlos y desencriptarlos
+                    respectivamente.
+                </p>
+                <p class="proyecto__descripcion">
+                    HTML. CSS. JavaScript. DOM. Git
+                </p>
+            </section>
+        </article>
+
+        <article class="proyecto col-12">
+            <header class="proyecto__header">
+                <img  class="proyecto__imagen" src="assets/imagenes/orderffee.png">
+            </header>
+            <section class="proyecto__content">
+                <a class="proyecto__link" href="https://github.com/ezvel/orderffee"><h3 class="proyecto__titulo">Orderffee</h3></a>
+                <p class="proyecto__descripcion">
+                    Sistema de comandas para una cafetería.
+                </p>  
+                <p class="proyecto__descripcion">
+                    Java. Java Swing. MySql. Git
+                </p>                  
+            </section>
+        </article>
+        
+        
+
     </section>
 </body>
 </html>
