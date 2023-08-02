@@ -1,0 +1,13 @@
+.proyecto__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyecto__link:hover {
+    color: var(--color-resaltador);
+}
+
+.proyecto__link:hover > svg {
+    fill: cyan;
+}
