@@ -1,0 +1,8 @@
+.formacion {
+    padding: 2em;
+    width: 500px;
+    min-height: 200px;
+    max-height: auto;
+    background-color: var(--bg-color-components);
+    border-radius: 1rem;
+}

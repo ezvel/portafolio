@@ -1,0 +1,14 @@
+.formaciones {
+    padding-top: 8em;
+    padding-bottom: 8em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background-color: var(--bg-color-seccion-impar);
+}
+
+.formaciones__titulo {
+    text-align: center;
+}
