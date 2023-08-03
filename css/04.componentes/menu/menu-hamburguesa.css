@@ -1,5 +1,9 @@
-.menu-hamburguesa {
-    padding-top: 10em;
+.menu__hamburguesa {
+    position: fixed;
+    top: 1rem;
+    left: 2rem;
+    cursor: pointer;
+    z-index: 100;
 }
 
 @media screen and (min-width: 768px) {

@@ -53,13 +53,13 @@
 </head>
 <body>
     <!--Menú-->
-    <header class="header">
+    <div href="#" id="toggle-menu" class="menu__hamburguesa"><img src="assets/icons/menu_hamburguesa.svg"></div>
+    <header class="header" id="header">
         <nav class="menu">
-            <a href="#" class="menu__hamburguesa"><img src="assets/icons/menu_hamburguesa.svg"></a>
             <ul class="menu__lista">
-                <li class="menu__items"><a class="menu__links" href="#sobre-mi">Sobre mí</a></li>
-                <li class="menu__items"><a class="menu__links" href="#proyectos">Proyectos</a></li>
-                <li class="menu__items"><a class="menu__links" href="#formacion">Formación</a></li>
+                <li class="menu__items"><a class="menu__links" id="link1" href="#sobre-mi">Sobre mí</a></li>
+                <li class="menu__items"><a class="menu__links" id="link2" href="#proyectos">Proyectos</a></li>
+                <li class="menu__items"><a class="menu__links" id="link3" href="#formacion">Formación</a></li>
             </ul>
         </nav>
     </header>
@@ -199,5 +199,6 @@
         <p>Desarrollado por Luis Ezequiel Vélez</p>
     </footer>
 
+    <script src="js/toggle-menu.js"></script>
 </body>
 </html>
