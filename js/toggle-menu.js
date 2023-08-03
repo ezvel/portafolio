@@ -20,3 +20,6 @@ $link3.addEventListener("click", () => {
     $menu.classList.add("header--show");
 })
 
+document.addEventListener("DOMContentLoaded", () => {
+    $menu.classList.add("header--show")
+})

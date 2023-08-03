@@ -6,3 +6,7 @@
     height: 10vh;
     background-color: var(--bg-color-seccion-par);
 }
+
+.footer p {
+    max-width: 100%;
+}
